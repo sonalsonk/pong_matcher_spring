@@ -1,8 +1,7 @@
 ---
 applications:
-  - name: pong
+  - name: springpong
     buildpack: java_buildpack
     path: build/libs/app.jar
-    random_route:true
     services:
       - mysql
