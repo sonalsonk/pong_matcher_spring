@@ -1,7 +1,7 @@
 ---
 applications:
-  - name: springpong
+  - name: springpong_Sonal
     buildpack: java_buildpack
-    path: build/libs/app.jar
+    path: target/pong-matcher-spring-1.0.0.BUILD-SNAPSHOT.jar
     services:
       - mysql
